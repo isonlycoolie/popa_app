@@ -1,0 +1,239 @@
+# POPA - Onboarding Wireframe
+## Low-Fidelity Wireframe with Annotations
+
+### Screen: Onboarding Flow (375x812 - iPhone X dimensions)
+### Theme: Light Mode
+
+#### Screen 1: Welcome
+```
+┌─────────────────────────────────────────────────────────┐
+│ Status Bar (24dp)                                       │
+├─────────────────────────────────────────────────────────┤
+│ Welcome Screen                                          │
+│                                                         │
+│                                                         │
+│                    [📱]                                │
+│                    POPA                                 │
+│                    (28sp, 700 weight)                  │
+│                                                         │
+│              Serverless SMS & MMS                      │
+│              (18sp, 600 weight)                        │
+│                                                         │
+│              Send messages without internet             │
+│              (16sp, 400 weight, #6B7280)               │
+│                                                         │
+│              • Offline messaging                       │
+│              • No data collection                      │
+│              • Privacy first                          │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│                                                         │
+│                                                         │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │                Get Started                          │ │
+│ │                (16sp, 600 weight)                   │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│              [Skip for now]                            │
+│              (16sp, 400 weight, #6B7280)               │
+└─────────────────────────────────────────────────────────┘
+```
+
+#### Screen 2: Permissions
+```
+┌─────────────────────────────────────────────────────────┐
+│ Status Bar (24dp)                                       │
+├─────────────────────────────────────────────────────────┤
+│ Permissions Screen                                      │
+│                                                         │
+│                    [🔒]                                │
+│                    Permissions                          │
+│                    (22sp, 600 weight)                  │
+│                                                         │
+│              POPA needs access to:                     │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              📱 SMS Messages                            │
+│              Send and receive text messages             │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              📷 Camera & Photos                        │
+│              Send photos and videos                     │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              📞 Contacts                               │
+│              Show contact names in messages             │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              🔔 Notifications                          │
+│              Alert you to new messages                 │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │                Allow Access                          │ │
+│ │                (16sp, 600 weight)                   │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│              [Not Now]                                 │
+│              (16sp, 400 weight, #6B7280)               │
+└─────────────────────────────────────────────────────────┘
+```
+
+#### Screen 3: Default SMS App
+```
+┌─────────────────────────────────────────────────────────┐
+│ Status Bar (24dp)                                       │
+├─────────────────────────────────────────────────────────┤
+│ Default SMS App Screen                                  │
+│                                                         │
+│                    [📱]                                │
+│                    Default SMS App                      │
+│                    (22sp, 600 weight)                  │
+│                                                         │
+│              To send and receive SMS,                  │
+│              POPA needs to be your default             │
+│              SMS app.                                  │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              This allows POPA to:                     │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              • Send SMS messages                       │
+│              • Receive SMS messages                    │
+│              • Access message history                   │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              Your messages stay on your                │
+│              device - we don't collect data.           │
+│              (16sp, 400 weight, #34C759)               │
+│                                                         │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │                Set as Default                       │ │
+│ │                (16sp, 600 weight)                   │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│              [Skip for now]                            │
+│              (16sp, 400 weight, #6B7280)               │
+└─────────────────────────────────────────────────────────┘
+```
+
+#### Screen 4: Privacy
+```
+┌─────────────────────────────────────────────────────────┐
+│ Status Bar (24dp)                                       │
+├─────────────────────────────────────────────────────────┤
+│ Privacy Screen                                          │
+│                                                         │
+│                    [🛡️]                               │
+│                    Your Privacy                        │
+│                    (22sp, 600 weight)                  │
+│                                                         │
+│              POPA is designed with                     │
+│              privacy in mind:                          │
+│              (16sp, 400 weight)                       │
+│                                                         │
+│              🔒 All messages stored locally            │
+│              No cloud storage or servers                │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              🚫 No data collection                     │
+│              We don't track or analyze your messages   │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              📱 Offline first                          │
+│              Works without internet connection          │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│              🔄 You control your data                  │
+│              Export or delete anytime                   │
+│              (16sp, 400 weight)                        │
+│                                                         │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │                Continue                             │ │
+│ │                (16sp, 600 weight)                   │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│              [Read Privacy Policy]                     │
+│              (16sp, 400 weight, #6B7280)               │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Design Annotations:
+
+#### Typography:
+- **Screen Titles**: 22sp, 600 weight, #111827
+- **App Title**: 28sp, 700 weight, #111827
+- **Body Text**: 16sp, 400 weight, #111827
+- **Secondary Text**: 16sp, 400 weight, #6B7280
+- **Button Text**: 16sp, 600 weight, #FFFFFF
+- **Link Text**: 16sp, 400 weight, #6B7280
+
+#### Spacing:
+- **Status Bar**: 24dp
+- **Screen Content**: 16dp horizontal padding
+- **Section Spacing**: 24dp vertical
+- **Button Spacing**: 16dp vertical
+- **Icon Spacing**: 24dp from text
+
+#### Touch Targets:
+- **Primary Buttons**: 56dp height (exceeds 48dp minimum)
+- **Secondary Buttons**: 48dp height (meets minimum)
+- **Links**: 48dp height (meets minimum)
+- **Icons**: 48dp x 48dp (meets minimum)
+
+#### Color Usage:
+- **Background**: #FFFFFF
+- **Text Primary**: #111827
+- **Text Secondary**: #6B7280
+- **Primary Button**: #0A84FF
+- **Accent**: #34C759 (privacy highlights)
+- **Border**: #E5E7EB
+
+#### Button Design:
+- **Primary**: Blue background, white text, 8dp border radius
+- **Secondary**: Transparent background, blue text
+- **Height**: 56dp (primary), 48dp (secondary)
+- **Padding**: 16dp horizontal, 8dp vertical
+- **Shadow**: Subtle shadow for primary buttons
+
+#### Icon Design:
+- **Size**: 48dp x 48dp
+- **Style**: Outlined, consistent weight
+- **Color**: #0A84FF (primary), #6B7280 (secondary)
+- **Spacing**: 24dp from text
+
+#### Accessibility Features:
+- **Screen Reader**: All elements have semantic labels
+- **High Contrast**: Clear visual hierarchy
+- **Touch Targets**: All interactive elements ≥48dp
+- **Font Scaling**: Supports up to 200% zoom
+
+#### Interactive Elements:
+- **Primary Buttons**: Tap to continue to next screen
+- **Secondary Buttons**: Tap to skip or go back
+- **Links**: Tap to open privacy policy
+- **Icons**: Visual indicators, not interactive
+
+#### States:
+- **Normal**: Default appearance
+- **Pressed**: Slight scale down, darker color
+- **Disabled**: Grayed out, not interactive
+- **Loading**: Spinner, disabled interaction
+
+#### Responsive Behavior:
+- **Portrait**: Full width layout
+- **Landscape**: Maintains layout, adjusts spacing
+- **Large Screens**: Maintains 375dp width, centers content
+
+#### Flow Logic:
+1. **Welcome**: Introduction to app features
+2. **Permissions**: Explain what permissions are needed
+3. **Default SMS**: Guide through SMS app setup
+4. **Privacy**: Explain privacy practices
+5. **Complete**: Start using the app
+
+#### Error Handling:
+- **Permission Denied**: Show limited mode explanation
+- **SMS App Not Set**: Show setup instructions
+- **Network Issues**: Explain offline capabilities
+- **Retry Options**: Allow users to retry setup

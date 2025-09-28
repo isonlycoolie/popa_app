@@ -1,0 +1,147 @@
+# POPA - Message Composer Wireframe
+## Low-Fidelity Wireframe with Annotations
+
+### Screen: Message Composer (375x812 - iPhone X dimensions)
+### Theme: Light Mode
+
+```
+┌─────────────────────────────────────────────────────────┐
+│ Status Bar (24dp)                                       │
+├─────────────────────────────────────────────────────────┤
+│ Chat Header (56dp)                                      │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │ [←] Sarah Johnson                    [📞] [📹] [⋮]   │ │
+│ │     (18sp, 600 weight)                             │ │
+│ │     Online                                          │ │
+│ │     (13sp, 400 weight, #34C759)                    │ │
+│ └─────────────────────────────────────────────────────┘ │
+├─────────────────────────────────────────────────────────┤
+│ Message Area (Scrollable) - Previous messages...      │
+│                                                         │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │ [📷] Photo                                         │ │
+│ │ 2:18 PM                                    ✓✓      │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│     ┌─────────────────────────────────────────────┐   │
+│     │ Nice photo! Where was this taken?           │   │
+│     │ 2:19 PM                                     │   │
+│     └─────────────────────────────────────────────┘   │
+│                                                         │
+├─────────────────────────────────────────────────────────┤
+│ Message Composer (Expanded)                            │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │ [📎] [Text Input Field]                    [📤]     │ │
+│ │     (16sp, 400 weight)                             │ │
+│ │     Type a message...                               │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│ Attachment Sheet (When Opened)                         │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │ [📷] Camera  [🖼️] Gallery  [📄] Files  [🎵] Audio  │ │
+│ │     (16sp, 400 weight)                             │ │
+│ │ [📍] Location  [📞] Contact  [📅] Calendar          │ │
+│ │     (16sp, 400 weight)                             │ │
+│ └─────────────────────────────────────────────────────┘ │
+│                                                         │
+│ Character Count & Status                               │
+│ ┌─────────────────────────────────────────────────────┐ │
+│ │ 0/160 characters                    SMS             │ │
+│ │     (13sp, #6B7280)                (13sp, #34C759) │ │
+│ └─────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────┘
+```
+
+### Design Annotations:
+
+#### Typography:
+- **Input Text**: 16sp, 400 weight, #111827
+- **Placeholder**: 16sp, 400 weight, #6B7280
+- **Attachment Labels**: 16sp, 400 weight, #111827
+- **Character Count**: 13sp, 400 weight, #6B7280
+- **Message Type**: 13sp, 400 weight, #34C759
+
+#### Spacing:
+- **Status Bar**: 24dp
+- **Chat Header**: 56dp
+- **Message Composer**: 80dp height, 16dp horizontal padding
+- **Attachment Sheet**: 120dp height when expanded
+- **Character Count**: 24dp height
+
+#### Touch Targets:
+- **Attachment Button**: 48dp x 48dp (meets minimum)
+- **Send Button**: 48dp x 48dp (meets minimum)
+- **Attachment Options**: 48dp x 48dp each (meets minimum)
+- **Input Field**: 48dp height (meets minimum)
+
+#### Color Usage:
+- **Background**: #FFFFFF
+- **Input Field**: #F7F7F8
+- **Attachment Sheet**: #F0F0F0
+- **Text Primary**: #111827
+- **Text Secondary**: #6B7280
+- **Accent**: #34C759 (SMS indicator)
+- **Border**: #E5E7EB
+
+#### Input Field Design:
+- **Height**: 48dp (meets accessibility minimum)
+- **Border Radius**: 8dp
+- **Padding**: 12dp horizontal, 8dp vertical
+- **Background**: #F7F7F8
+- **Border**: 1dp solid #E5E7EB
+- **Focus State**: Blue border, #0A84FF
+
+#### Attachment Sheet Design:
+- **Layout**: 2x4 grid of options
+- **Icon Size**: 24dp
+- **Label**: Below icon, 16sp
+- **Spacing**: 16dp between items
+- **Background**: #F0F0F0
+- **Border**: 1dp solid #E5E7EB
+
+#### Character Count Design:
+- **Position**: Bottom right of composer
+- **Format**: "X/160 characters"
+- **Color**: #6B7280 (normal), #FF3B30 (over limit)
+- **Font**: 13sp, 400 weight
+- **SMS Indicator**: Green when under limit
+
+#### Interactive Elements:
+- **Text Input**: Tap to focus, keyboard appears
+- **Attachment Button**: Tap to open/close sheet
+- **Send Button**: Tap to send message
+- **Attachment Options**: Tap to select attachment type
+
+#### States:
+- **Normal**: Default appearance
+- **Focused**: Input field highlighted
+- **Typing**: Character count updates
+- **Attachment Open**: Sheet expanded
+- **Sending**: Send button disabled, loading state
+- **Error**: Red border, error message
+
+#### Accessibility Features:
+- **Screen Reader**: All elements have semantic labels
+- **High Contrast**: Clear visual hierarchy
+- **Touch Targets**: All interactive elements ≥48dp
+- **Keyboard Navigation**: Tab order logical
+
+#### Responsive Behavior:
+- **Portrait**: Full width composer
+- **Landscape**: Maintains layout, adjusts height
+- **Large Screens**: Maintains 375dp width, centers content
+
+#### Message Types:
+- **SMS**: Standard text message (160 chars)
+- **MMS**: Multimedia message (with attachments)
+- **Long SMS**: Auto-split for messages >160 chars
+- **Group**: Multiple recipients
+
+#### Attachment Types:
+- **Camera**: Take new photo/video
+- **Gallery**: Select from photo library
+- **Files**: Select documents
+- **Audio**: Record voice message
+- **Location**: Share current location
+- **Contact**: Share contact information
+- **Calendar**: Share calendar event
